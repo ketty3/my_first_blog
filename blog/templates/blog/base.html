@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en,ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Great+Vibes&subset=latin,cyrillic" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <title>Anna's blog</title>
+        <style>
+        body {
+            font-family: 'Great Vibes', serif;
+        }
+    </style>
+    </head>
+    <body>
+
+       <div class="page-header">
+    <h1><a href="/">Anna's blog</a></h1>
+    </div>
+    <div class="content container">
+        <div class="row">
+            <div class="col-md-8">
+            {% block content %}
+            {% endblock %}
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
